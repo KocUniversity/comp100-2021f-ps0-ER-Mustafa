@@ -1,5 +1,9 @@
-from stringcolor import * 
+import math
 
-print("Hello World!")
+x = int(input("Enter number x: "))
+y = int(input("Enter number y: "))
+result = x**y
 
-print(cs("here we go", "GREEN"))
+print("x**y = " + str(result))
+print("log(" + str(x) + ") = " + str(math.log2(x)))
+print("76742")
